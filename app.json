@@ -3,8 +3,8 @@
   "description": "Telegram Bot to Upload URLs to Telegram as File and Video.",
   "keywords": [ "URL UPLOADER"],
   "success_url": "https://t.me/cyniteUploaderbot",
-  "website": "https://github.com/CyniteOfficial/Uploader-Bot",
-  "repository": "https://github.com/CyniteOfficial/Uploader-Bot",
+  "website": "https://github.com/sirediamond/Uploader-Bot",
+  "repository": "https://github.com/sirediamond/Uploader-Bot",
 
   "env": {
     "WEBHOOK": {"description": "Setting this to ANYTHING will enable webhooks when in env mode",
