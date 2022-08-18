@@ -10,9 +10,9 @@ class Config(object):
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
-    MAX_FILE_SIZE = 50000000
+    MAX_FILE_SIZE = 500000000
     TG_MAX_FILE_SIZE = 2097152000
-    FREE_USER_MAX_FILE_SIZE = 50000000
+    FREE_USER_MAX_FILE_SIZE = 500000000000
     # chunk size that should be used with requests
     CHUNK_SIZE = int(128)
     # default thumbnail to be used in the videos
@@ -25,7 +25,7 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
     OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-    SESSION_NAME = "UPLOADER-X-BOT"
+    SESSION_NAME = "Flash Uploader"
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
     MAX_RESULTS = "50"
